@@ -14,13 +14,13 @@ It includes a group of cards ordered randomly, the cards contain hidden icons th
 
 Each card has only one matching card and the player should try to find it.
 
-##How the Game Works
+## How the Game Works
 * One the player click on the card the timer starts.
 * once the first card is open the player can go open a second card.
 
  * If the second card match the first one the two cards remain open.
 
- * If the two cards flipped back.
+ * If the two cards not matched the cards flipped back.
 * Number of moves keep increasing each time the player open two cards.
 * As the number of moves increases the stars rating decrease.
   * if it reaches to 12 moves one star turn into gray.
