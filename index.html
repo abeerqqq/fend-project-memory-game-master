@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Matching Game</title>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+  <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Coda">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <h2>Matching Game</h2>
+    </header>
+
+    <section class="score-panel">
+      <ul class="stars">
+        <li><i class="fa fa-star third"></i></li>
+        <li><i class="fa fa-star second"></i></li>
+        <li><i class="fa fa-star first"></i></li>
+      </ul>
+
+      <b class="moves">3</b> &nbsp Moves
+      <div class="time">
+        <i class="fa fa-hourglass-end"></i>
+        &nbsp  &nbsp
+        <span class="timer">
+          <b class="h">0:</b>
+          <b class="m">0:</b>
+          <b class="s">0</b>
+        </span>
+      </div>
+      <div class="reset">
+        <i class="fa fa-repeat"></i>
+      </div>
+    </section>
+
+    <ul class="deck"> </ul>
+
+    <dialog class="myDialog">
+      <h1>Congratulations</h1>
+      <p>You completed the game successfully!!</p>
+      <b>MOVES:</b> &nbsp &nbsp<span class="movesNum"></span><br>
+      <b>RATE:</b> &nbsp &nbsp<span class="rate"></span><br>
+      <b>TIME TAKEN:</b> &nbsp &nbsp<span class="overallTime"></span><br>
+      <br>
+      <button class="restart-button"><b>Restart the game</b></button>
+    </dialog>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
