@@ -26,4 +26,9 @@ Each card has only one matching card and the player should try to find it.
   * if it reaches to 12 moves one star turn into gray.
   * if it reaches 20 moves the second star turn into gray.
 * If the user successfully matched all the cards a dialog open with the number of moves the player took, the taken time and the stars rate.
-* the user can restart the game by clicking on the restart button.    
+* the user can restart the game by clicking on the restart button. 
+
+![screenshot](https://github.com/abeerqqq/fend-project-memory-game-master/blob/master/img/Memory%20Game%20Pic1.png)  
+![screenshot](https://github.com/abeerqqq/fend-project-memory-game-master/blob/master/img/Memory%20Game%20Pic3.png) 
+![screenshot](https://github.com/abeerqqq/fend-project-memory-game-master/blob/master/img/Memory%20Game%20Pic2.png)  
+ 
